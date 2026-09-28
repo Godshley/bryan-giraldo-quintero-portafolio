@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f8fc;
+  --background: transparent;
   --foreground: #172033;
 
   --primary: #2563eb;
@@ -25,7 +25,14 @@ html {
 
 body {
   margin: 0;
-  background: var(--background);
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(8, 32, 64, 0.72),
+      rgba(15, 39, 71, 0.58)
+    ),
+    url("/images/udea-fountain.jpg") center / cover fixed no-repeat;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
