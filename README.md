@@ -7,6 +7,8 @@ El proyecto presenta información personal, conocimientos, formación
 académica y proyectos desarrollados durante mi formación como estudiante
 de Ingeniería de Sistemas.
 
+VERCEL: https://bryan-giraldo-quintero.vercel.app/
+
 ## Tecnologías
 
 - Next.js
